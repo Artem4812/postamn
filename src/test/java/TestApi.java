@@ -17,7 +17,7 @@ public class TestApi {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", Matchers.equalTo("some data"))
+                .body("data", Matchers.equalTo("some dataaa"))
 
         ;
     }
